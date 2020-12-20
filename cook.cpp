@@ -1,31 +1,40 @@
 #include<bits/stdc++.h>
-using namespace std;
+using namespace  std;
+ 
+#define ll           long long  
+#define int          long long
+#define vi           std::vector<int>
+#define setbits(x)   __builtin_popcountll(x)
+#define pb           push_back
+#define fn           for(int i=0;i<n;i++)
+#define rep(i,a,b)   for(int i=a;i<b;i++)
+#define all(x)       x.begin(), x.end()
+#define PI           3.14159265358979323846
+#define MOD          1000000007
+#define pii          pair<ll,ll>
+#define first 		 fr
+#define secnod 		 sc
 
-typedef   long long int ll;
-typedef vector<char> vi;
+void getio();
 
-#define  pb push_back
-#define pp pop_back()
-#define  ff first 
-#define  ss second
-#define  f(i,n) for(int i=0;i<n;i++)
-#define  all(x) x.begin(), x.end()
-
-int ceil(int a,int b)
+void solve()
 {
-    int c=a/b;
-    if(c*b!=a)
-    c++;
-    return c;
+
 }
-
-
-int main()
+ 
+ 
+int32_t main()
 {
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        
-    }
+	ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+	getio();
+	int t; cin >> t; while (t--)
+	solve();
+}
+ 
+void getio()
+{
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
 }
